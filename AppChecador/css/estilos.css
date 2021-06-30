@@ -1,0 +1,106 @@
+/*Estilos reloj*/
+*
+{
+    padding:0;
+    margin:0;
+}
+
+input[type="text"],input[type="password"],textarea {
+    font-weight: bold;
+}
+
+body
+{
+    background:teal;
+}
+
+.alert-danger
+{
+    width:40% !important;
+    margin:10px auto;
+    border-radius:8px;
+    box-shadow: 5px 6px 8px black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.contenedor
+{
+    margin-top:10%;
+}
+
+.imagen 
+{
+    width: 15%;
+    float: left;
+    opacity:0.7;
+    display: block;
+    margin:0 77%;
+    position: absolute;
+}
+
+.reloj
+{
+    color:white;
+    text-shadow:2px 2px 1px black;
+    font-size:115px;  
+}
+
+.btn
+{
+    margin:10px auto !important;
+    float:none !important;
+    font-weight:bold;
+    border:1px solid gray;
+    padding:10px 25px;
+}
+
+.lista
+{
+    width:30%;
+    font-weight:bold;
+    color:navy;
+    text-align:center;
+}
+
+/*Estilos login & página administrador*/
+
+.contain
+{
+    margin:auto;
+    width:40%;
+    background:rgba(0,0,0,0.5);
+    padding:10px;
+}
+
+.bgAdmin
+{
+    background: url("../img/UAS.png");
+    background-size: cover;
+}
+
+.containLogin
+{
+    border:medium solid gray;
+    border-radius:5px;
+    box-shadow:2px 3px 4px black;
+    padding:25px;
+    margin-top:10%;
+    background:rgba(0,0,0,0.5);
+}
+.containLogin h3, .contain h2, .contain label {
+    color:white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.btn-danger, .btn-primary
+{
+    float:none !important;
+}
+
+/*Estilos consulta alumno*/
+
+.tabla
+{
+    width:70% !important;
+    margin:auto;
+}
